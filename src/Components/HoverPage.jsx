@@ -1,5 +1,5 @@
 import React from "react";
-import frame31 from "../assets/Frame 31 Hover.png";
+import frame31 from "../assets/Frame-31-Hover.png";
 import leftSide from "../assets/left-side-min.png";
 import rightSide from "../assets/right-side-min.png";
 import underline from "../assets/underline.png";
@@ -7,7 +7,7 @@ import arrow from "../assets/arrow-min.png";
 import background from "../assets/background.png";
 
 export default function HoverPage({ onBack }) {
-  return (
+  return ( 
     <section
       id="hoverpage"
       className="relative w-full min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden px-4 sm:px-8 md:px-16 py-16 sm:py-20"
